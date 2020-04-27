@@ -1,0 +1,140 @@
+    1  cd mindtree
+    2  mkdir mindtree
+    3  ls
+    4  cd mindtree/
+    5  ls
+    6  git clone https://github.com/RoohinazK/Devops.git
+    7  ls
+    8  cd Devops
+    9  ls
+   10  cat README.md
+   11  ls
+   12  cat README.md
+   13  git --version
+   14  ls
+   15  git log
+   16  git config --global --list
+   17  git config --global user.name "Roohinaz"
+   18  git config --global user.email "roohinak25@gmail.com"
+   19  git config --global --list
+   20  ls
+   21  git status
+   22  git commit
+   23  git push
+   24  cd mindtree/
+   25  git clone https://github.com/RoohinazK/Devops.git
+   26  cd Devops/
+   27  ls
+   28  git config --global --list
+   29  git status
+   30  git push
+   31  ls
+   32  echo "Apple Pie" | git hash-object --stdin
+   33  echo "Roohi"| git hash-object --stdin
+   34  echo "Apple Pie" | git hash-object --stdin -w
+   35  echo "Roohi"| git hash-object --stdin -w
+   36  ls
+   37  ls -a
+   38  cd 
+   39  cd mindtree/
+   40  cd Devops/
+   41  ls -a git/objects/
+   42  git cat-file .git/objects
+   43  git cat-file .git/objects/23
+   44  cd .git/
+   45  ls
+   46  ls -a git/objects/
+   47  ls -a .git/objects
+   48  cd .git/
+   49  cd branches/
+   50  ls
+   51  ls -al
+   52  git logs
+   53  git log
+   54  cd ..
+   55  echo "Hello world" > Helloworld.txt
+   56  cat Helloworld.txt
+   57  git add .
+   58  git commit -m "File Helloworld added"
+   59  ls
+   60  git status
+   61  git push
+   62  git log
+   63  echo "Welcome to world of git" >> Helloworld.txt
+   64  git add .
+   65  git commit -m "Modified helloworld file"
+   66  git log
+   67  git push
+   68  git log
+   69  git diff 33805c..9054b6
+   70  mv Helloworld.txt Hello.txt
+   71  git add .
+   72  git status
+   73  rm Hello.txt
+   74  git status
+   75  vi Helloworld.txt
+   76  git add .
+   77  git commit -m "New"
+   78  git show HEAD
+   79  git showlog
+   80  git show log
+   81  git branch
+   82  ls
+   83  cd .git/
+   84  ls
+   85  cd refs/
+   86  ls
+   87  cd heads/
+   88  ls
+   89  cat master
+   90  git log
+   91  cd ../..
+   92  cd ..
+   93  echo "Welcome to the worl of git"> Helloworld.txt
+   94  git add .
+   95  'git commit -m "New removed"
+q
+
+
+
+quit
+close
+'
+   96  git commit -m "New removed"
+   97  cat .git/refs/heads/master
+   98  git log
+   99  ls
+  100  git branch
+  101  git branch testing
+  102  git branch
+  103  git branch production
+  104  ls
+  105  git branch
+  106  ls -ltr
+  107  git log
+  108  git branch
+  109  git checkout testing
+  110  git branch
+  111  cat git/refs/heads/testing
+  112  cat .git/refs/heads/testing
+  113  ls
+  114  echo "Welcome to Testing Branch" >Testing_Branch.txt
+  115  git status
+  116  git add . ; git commit -m "Testing File"
+  117  git status
+  118  git push
+  119  git push --set-upstream origin testing
+  120  git branch
+  121  git checkout production
+  122  ls
+  123  git log
+  124  echo "Welcome to Production Branch"> PRoduction_Branch
+  125  git add . ; git commit -m "Prod File"
+  126  git show head
+  127  git show HEAD
+  128  git push --set-upstream origin production
+  129  ls
+  130  git checkout master
+  131  git push
+  132  ls
+  133  history > Day1_History.txt
